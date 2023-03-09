@@ -1,12 +1,51 @@
-h1 {
-    text-align: center;
+@media screen and (min-width:780px) {
+    .container {
+        display: flex;
+    }
 }
 
+@font-face {
+    font-family: Tilt Warp;
+    src: url(TiltWarp.ttf);
+}
+
+.logindesign {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-family: Tilt Warp;
+    font-size: 30px;
+}
+
+.login {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-family: Tilt Warp;
+    font-size: 25px;
+
+}
+
+.userpass {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.register {
+    position: relative;
+    top: -310px;
+    left: 1298px;
+}
 
 body {
     background-color: chocolate;
 }
+
 a {
-    color:black;
+    color: black;
     font-weight: bold;
 }
+
+
+    
