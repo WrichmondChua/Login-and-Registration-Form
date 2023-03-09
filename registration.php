@@ -36,13 +36,14 @@ if (isset($_POST["submit"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <title>Register</title>
 </head>
 
 <body>
-
-    <h2>Registration</h2>
+    <div class="register2">
+        <h2>Registration</h2>
+    </div>
     <form class="" action="" method="post" autocomplete="off">
         <label for="name">Name: </label>
         <input type="text" name="name" id="name" required value=""> <br>
@@ -61,8 +62,9 @@ if (isset($_POST["submit"])) {
     </form>
 
     <br>
-    <a href="login.php">Login</a>
-
+    <div class="loginx">
+        <a href="login.php">Login</a>
+    </div>
 
 </body>
 
